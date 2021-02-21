@@ -5,7 +5,7 @@ import CardModel from './model/dbCards.js'
 
 // app config
 const app = express()
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3001
 const connection_url = 'mongodb+srv://admin:<password>@cluster0.kce9c.mongodb.net/tinderdb?retryWrites=true&w=majority'.replace('<password>', '2StIeuKeajNIfOHy')
 
 // middlewares
